@@ -349,10 +349,7 @@ ul {
 	display: flex;
 	align-items: center;
 	gap: 32px;
-
 }
-
-
 .formats-list {
 	display: flex;
 	gap: 20px;
