@@ -350,6 +350,7 @@ ul {
 	align-items: center;
 	gap: 32px;
 }
+
 .formats-list {
 	display: flex;
 	gap: 20px;
@@ -596,6 +597,12 @@ ul {
 .form-button {
 	display: block;
 	margin: 0 auto 24px;
+}
+
+.button[disabled] {
+	background-color: lightgrey;
+	color: gray;
+
 }
 
 .form-terms {
