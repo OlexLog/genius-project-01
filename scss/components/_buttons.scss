@@ -1,0 +1,18 @@
+.button {
+  border-radius: 8px;
+  border: 2px solid var(--color-brand-normal);
+  background: var(--color-brand-normal);
+  color: var(--color-primary-light);
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
