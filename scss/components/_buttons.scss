@@ -10,9 +10,9 @@
   cursor: pointer;
   font-weight: 600;
   line-height: 1.5;
-}
 
-.button:hover {
-  background-color: transparent;
-  color: var(--color-brand-dark);
+  &:hover {
+    background-color: transparent;
+    color: var(--color-brand-dark);
+  }
 }

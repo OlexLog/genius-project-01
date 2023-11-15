@@ -24,13 +24,6 @@
   }
 
   &__item {
-    flex-basis: 50%;
-    /* function calc no work */
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
-
-
-
-
-
-
