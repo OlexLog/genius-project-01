@@ -1,0 +1,40 @@
+.header-section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		align-items: center;
+	}
+
+	&__menu {
+		display: none;
+
+		@media screen and (min-width: $br--smalldesktop) {
+			display: flex;
+			gap: 64px;
+			justify-content: space-between;
+			padding: 24px 48px;
+			background: var(--color-primary-clear);
+		}
+	}
+
+	&__burger {
+		background-color: transparent;
+		position: absolute;
+		font-family: "Poppins";
+		font-size: 16px;
+		top: 24px;
+		right: 24px;
+		fill: var(--color-primary-normal);
+		border: 1px solid var(--color-primary-dark);
+
+
+		@media screen and (min-width: $br--smalldesktop) {
+			display: none;
+		}
+
+	}
+}

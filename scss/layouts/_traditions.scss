@@ -1,0 +1,56 @@
+.traditions {
+	margin-bottom: 60px;
+
+	&__title {
+		color: var(--color-primary-dark);
+		text-align: center;
+		font-size: 32px;
+		margin-top: 30px;
+		margin-bottom: 16px;
+	}
+
+	&__content {
+		padding: 24px;
+
+	}
+
+	&__text {
+		text-align: justify;
+		font-size: 14px;
+		margin-bottom: 16px;
+
+	}
+
+	&__image {
+		border-radius: 24px;
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
+	}
+
+
+	@media screen and (min-width: $br--tablet) {
+		&__content {
+			display: flex;
+			gap: 30px;
+		}
+
+		&__title {
+			font-size: 64px;
+			margin-top: 60px;
+			margin-bottom: 32px;
+		}
+
+		&__text {
+			font-size: 16px;
+			margin-bottom: 0;
+		}
+
+		&__image {
+			border-radius: 32px;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+	}
+}
